@@ -32,7 +32,11 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    background-color: var(--color3);
+    /* background-color: var(--color3); */
+    background: url("paul-volkmer-fX-qWsXl5x8-unsplash.jpg") repeat;
+    background-size: cover;
+    
+
 }
 ol, ul {
 	list-style: none;
@@ -61,9 +65,14 @@ table {
     --color5: #d0d0d0;
 }
 
-ul li{
+/* INICIO CABECALHO */
+header ul li{
     display: inline-block;
     padding: 0.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: var(--color1);
 }
 header{
     display: flex;
@@ -77,10 +86,41 @@ header{
     font-size: 2rem;
     letter-spacing: .4rem;
 }
+.logo a{
+    text-decoration: none;
+    color: var(--color1);
+}
 .nav_item{
     color: var(--color1);
     font-family: 'Poppins', sans-serif;
     letter-spacing: .2rem;
     margin-left: 1.5rem;
 }
+/* FINAL CABECALHO */
+
+/* INICIO REDES SOCIAIS */
+
+.social-media {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20px
+}
+
+.social-media ul li {
+    list-style: none;
+    color: var(--color1);
+    padding-top: 20px;
+}
+
+.social-media ul li a{
+    color: var(--color1);
+    font-size: 1.5rem;
+}
+
+.social-media ul li a:hover{
+    color: var(--color2);
+}
+
+/* FIM REDES SOCIAIS */
  
