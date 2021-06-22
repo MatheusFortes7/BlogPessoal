@@ -63,7 +63,7 @@ table {
 /* VARIAVEIS DE COR */
 :root{
     --color1: #0bd3d3;
-    --color2: #f890e7;
+    --color2: #df30c1;
     --color3: rgb(19, 19, 19);
     --color4: #fff;
     --color5: #d0d0d0;
@@ -95,4 +95,7 @@ header{
     font-family: 'Poppins', sans-serif;
     letter-spacing: .2rem;
     margin-left: 1.5rem;
+}
+#active{
+    color: var(--color2) !important;
 }
