@@ -32,10 +32,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    /* background-color: var(--color3); */
-    background: url("paul-volkmer-fX-qWsXl5x8-unsplash.jpg") repeat;
+    background-color: var(--color3);
+    /* background: url("paul-volkmer-fX-qWsXl5x8-unsplash.jpg") repeat;
     background-size: cover;
-    
+     */
 
 }
 ol, ul {
@@ -78,6 +78,8 @@ header{
     justify-content: space-between;
     padding: 1rem;
     border-bottom: 1px solid var(--color1);
+    background: url("paul-volkmer-fX-qWsXl5x8-unsplash.jpg") repeat;
+    background-size: cover;
 }
 .logo{
     font-family: 'Major Mono Display', monospace;
