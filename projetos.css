@@ -176,3 +176,30 @@ header{
     margin-right: 100px;
     border: 1px solid var(--color2);
 }
+
+/* LIP */
+
+.tituloLIP h2::after{
+    content: ":\\";
+    color: var(--color1);
+}
+.tituloLIP h2::before{
+    content: "/:";
+    color: var(--color1);
+}
+
+.textoLIP{
+    padding: 70px;
+}
+
+.textoLIP iframe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.textoLIP a{
+    text-decoration: none;
+    color: var(--color5);
+}
