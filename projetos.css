@@ -56,6 +56,19 @@ table {
 
 /* FIM RESET */
 
+body::-webkit-scrollbar {
+    width: 8px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background: var(--color3);        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: var(--color1);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */  /* creates padding around scroll thumb */
+}
+
 /* VARIAVEIS DE COR */
 :root{
     --color1: #0bd3d3;
@@ -104,7 +117,7 @@ header{
 }
 
 /* TEXTO PRINCIPAL */
-
+/* DIW */
 .DIW{
     margin: 0 auto;
     justify-content: center;
@@ -140,4 +153,26 @@ header{
     display: flex;
     padding: 70px;
     max-width: 900px;
+}
+
+/* AEDS */
+
+.tituloAEDS h2::before{
+    content: "/:";
+    color: var(--color1);
+}
+.tituloAEDS h2::after{
+    content: ":";
+    color: var(--color1);
+}
+
+.textoAEDS{
+    display: flex;
+    padding: 70px;
+}
+
+.textoAEDS img{
+    max-width: 400px;
+    margin-right: 100px;
+    border: 1px solid var(--color2);
 }
