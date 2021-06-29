@@ -124,6 +124,7 @@ header{
     margin-top: 30px;
     align-self: center;
     padding-bottom: 30px;
+    
 }
 
 .DIW h2{
@@ -152,9 +153,13 @@ header{
 .textoDIW{
     display: flex;
     padding: 70px;
-    max-width: 900px;
+    /* max-width: 900px; */
 }
 
+.codepenBOX{
+    margin-bottom: 30px;
+    margin-top: -40px;
+}
 /* AEDS */
 
 .tituloAEDS h2::before{
@@ -203,3 +208,7 @@ header{
     text-decoration: none;
     color: var(--color5);
 }
+
+
+/* modelbox */
+
