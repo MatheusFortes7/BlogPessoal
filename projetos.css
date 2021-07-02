@@ -156,6 +156,23 @@ header{
     /* max-width: 900px; */
 }
 
+.textoDIW button{
+    height: 3rem;
+    width: 10rem;
+    color: var(--color4);
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    cursor: pointer;
+    background-color: var(--color1);
+    border: 2px solid var(--color2);
+    margin-top: 10px;
+}
+.textoDIW a{
+    text-decoration: none;
+    color: var(--color3);
+}
+
 .codepenBOX{
     margin-bottom: 30px;
     margin-top: -40px;
@@ -174,6 +191,23 @@ header{
 .textoAEDS{
     display: flex;
     padding: 70px;
+}
+
+.textoAEDS button{
+    height: 3rem;
+    width: 13rem;
+    color: var(--color4);
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    cursor: pointer;
+    background-color: var(--color1);
+    border: 2px solid var(--color2);
+    margin-top: 10px;
+}
+.textoAEDS a{
+    text-decoration: none;
+    color: var(--color3);
 }
 
 .textoAEDS img{
@@ -209,6 +243,46 @@ header{
     color: var(--color5);
 }
 
+/* iframe scrtach */
 
-/* modelbox */
+#textoScratch::before{
+    content: "<-";
+    font-weight: bolder;
+    color: #df30c1;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2rem;
+}
 
+#textoScratch::after{
+    content: "<-";
+    font-weight: bolder;
+    color: #df30c1;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2rem;
+}
+
+#textoScratch{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.arduino{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#textoArduino::before{
+    content: "->";
+    font-weight: bolder;
+    color: #df30c1;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2rem;
+}
+#textoArduino::after{
+    content: "->";
+    font-weight: bolder;
+    color: #df30c1;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2rem;
+    
+}
