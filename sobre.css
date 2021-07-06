@@ -246,6 +246,10 @@ header{
     position: absolute;
     right: 25%;
 }
+.texto-esportes a{
+    text-decoration: none;
+    color: var(--color5);
+}
 
 /* CURIOSIDADES */
 
@@ -290,4 +294,9 @@ header{
 .curiosidades{
     margin-bottom: 150px;
 }
+.texto-curiosidades a{
+    text-decoration: none;
+    color: var(--color5);
+}
+
 
