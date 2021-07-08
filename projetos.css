@@ -286,3 +286,21 @@ header{
     font-size: 2rem;
     
 }
+
+.roteiro button{
+    height: 3rem;
+    width: 14rem;
+    color: var(--color4);
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    cursor: pointer;
+    background-color: var(--color1);
+    border: 2px solid var(--color2);
+    margin-top: 10px;
+}   
+
+.roteiro a{
+    text-decoration: none;
+    color: var(--color3);
+}
